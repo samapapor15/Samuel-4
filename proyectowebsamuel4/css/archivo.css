@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    }
+    .boton {
+    display: inline-block;
+    padding: 6px;
+    width: 100px;
+    font-weight: 300;
+    border: 3px solid #080c74;
+    color: #080c74;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom-left-radius: 16px;
+    margin-top: 10px;
+    }
+
+    body{
+    background: #efefef
+    }
+    /*Contenedor de todo*/
+    .container-all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;    
+    background: #fff;
+    margin-top: 60px;
+    border-top: 6px solid #1e3d62;
+    }
+    /*Titulo*/
+    .title{
+    font-size: 40px;
+    margin-bottom: 60px;
+    color:#080c74;
+    }
+    /*Subtitulo*/
+    .sub-title{
+    font-size: 40px;
+    font-weight: 500px;
+    color:currentColor;
+    }
+    /*Contenedor de imagen*/
+    .container-all img{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    }
+    /*Contenedor de todas las etiquetas p*/
+    .container-all p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+    }
+    /*Contenedor de todas las etiquetas b*/
+    .container-all b{
+    font-size: 27px;
+    color:#080c74;
+    font-weight: normal;
+    }
+    /*Contenedor de todas las etiquetas li*/
+    .container-all li{
+    font-size: 20px;
+    color:#000000;
+    font-weight: normal;
+    }
+    /*Encabezado o Descripción que aparece en el footer, autor y
+    derechos*/
+    h3{
+    color:rgb(255, 255, 255);
+    }
+    footer{
+        margin-top: 60px;
+        padding: 30px;
+        text-align: center;
+        text-decoration: white;
+        background: #fc770a;
+       
+    }
+    @font-face {
+        font-family: face;
+        src: url("Montserrat-VariableFont_wght.ttf");
+    }
